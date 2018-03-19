@@ -1,0 +1,2 @@
+# Methods_of_numerical_differentiation
+method_euler; method_euler_mod; method_euler_improve; method_runge_kutt;
