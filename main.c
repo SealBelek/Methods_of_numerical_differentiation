@@ -62,7 +62,7 @@ void method_euler_mod(double h, FILE *file) {
     while (x <= xP) {
         x1 = x + h/2;
         y1 = y + h/2 * f1(x, y);
-        y = y + h + f(x1, y1);
+        y = y + h * f(x1, y1);
         x += h;
         fprintf(file, "%lf ", y);
     }
